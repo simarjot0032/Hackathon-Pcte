@@ -14,3 +14,7 @@ logintab.addEventListener("click", () => {
   signuptab.classList.remove("active-tab");
   logintab.classList.add("active-tab");
 });
+document.querySelector(".upload-label").addEventListener("click", function () {
+  console.log("Upload label clicked");
+  document.getElementById("image").click();
+});
